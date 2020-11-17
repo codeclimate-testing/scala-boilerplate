@@ -23,6 +23,7 @@ trait Resolvers {
   val public = "public"
   val releases = "releases"
   val snapshots = "snapshots"
+  val MaxVisitors = 4_000
 
   // Default repositories
   def bintray(owner: String, repo: String) = bintrayRepo(owner, repo)
